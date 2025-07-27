@@ -3,7 +3,7 @@ using SBS.DependencyInjection;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-var connectionString = builder.Configuration.GetSection("nmsConn").Value!;
+var connectionString = builder.Configuration.GetSection("sbsConn").Value!;
 Console.WriteLine(connectionString);
 
 //Dependency Injection
