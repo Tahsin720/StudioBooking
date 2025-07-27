@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using SBS.Models.Common;
 using SBS.Services.Interfaces;
 using SBS.Utilities.Exceptions;
